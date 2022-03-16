@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/firstUserAvatar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="2dp"
+        android:src="@drawable/first_user"
+        app:shapeAppearanceOverlay="@style/CircularShapeableImageViewAppearance.Overlay"
+        app:strokeColor="@android:color/white"
+        app:strokeWidth="2dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/secondUserAvatar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="28dp"
+        android:padding="2dp"
+        android:src="@drawable/third_user"
+        app:shapeAppearanceOverlay="@style/CircularShapeableImageViewAppearance.Overlay"
+        app:strokeColor="@android:color/white"
+        app:strokeWidth="2dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/thirdUserAvatar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="58dp"
+        android:padding="2dp"
+        android:src="@drawable/second_user"
+        app:shapeAppearanceOverlay="@style/CircularShapeableImageViewAppearance.Overlay"
+        app:strokeColor="@android:color/white"
+        app:strokeWidth="2dp" />
+</FrameLayout>
