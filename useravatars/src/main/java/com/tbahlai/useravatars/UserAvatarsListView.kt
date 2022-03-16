@@ -1,11 +1,11 @@
-package com.tbahlai.mylibrary
+package com.tbahlai.useravatars
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.FrameLayout
 import by.kirich1409.viewbindingdelegate.viewBinding
-import com.tbahlai.mylibrary.databinding.ViewUserAvatarsListBinding
+import com.tbahlai.useravatars.databinding.ViewUserAvatarsListBinding
 
 class UserAvatarsListView @JvmOverloads constructor(
     context: Context,

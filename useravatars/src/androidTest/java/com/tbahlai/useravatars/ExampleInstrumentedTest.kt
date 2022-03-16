@@ -1,4 +1,4 @@
-package com.tbahlai.mylibrary
+package com.tbahlai.useravatars
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry

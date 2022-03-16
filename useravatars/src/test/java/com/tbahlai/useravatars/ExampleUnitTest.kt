@@ -1,4 +1,4 @@
-package com.tbahlai.mylibrary
+package com.tbahlai.useravatars
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
